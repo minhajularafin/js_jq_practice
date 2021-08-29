@@ -1,0 +1,39 @@
+.panel{
+background-color: red;
+padding: 30px;
+text-align: center;
+color: white;
+cursor: pointer;
+}
+.flip{
+background-color: green;
+padding: 30px;
+text-align: center;
+color: white;
+display: none;
+}
+/*drag*/
+#draggable {
+width: 150px;
+height: 150px;
+padding: 0.5em;
+}
+/*controlgroup*/
+.ui-controlgroup-vertical {
+width: 150px;
+}
+.ui-controlgroup.ui-controlgroup-vertical > button.ui-button,
+.ui-controlgroup.ui-controlgroup-vertical > .ui-controlgroup-label {
+text-align: center;
+}
+#car-type-button {
+width: 120px;
+}
+.ui-controlgroup-horizontal .ui-spinner-input {
+width: 20px;
+}
+/*color animation*/
+.toggler { width: 500px; height: 200px; position: relative; }
+#button { padding: .5em 1em; text-decoration: none; }
+#effect { width: 240px; height: 200px; padding: 0.4em; position: relative; background: #fff; }
+#effect h3 { margin: 0; padding: 0.4em; text-align: center; }
